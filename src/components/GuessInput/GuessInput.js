@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-export function GuessInput ({ valueList, setValueList, answer, limit, toggleStatus }) {
+function GuessInput ({ valueList, setValueList, answer, limit, toggleStatus }) {
     const [value, setValue] = React.useState("");
     
     const putValueInList = item => {
@@ -54,3 +54,5 @@ export function GuessInput ({ valueList, setValueList, answer, limit, toggleStat
         </>
     )
 }
+
+export default GuessInput;

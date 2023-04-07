@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function GuessList ({ valueList }) {
+function GuessList ({ valueList }) {
     
     return (
         <div className="guess-results">
@@ -14,3 +14,5 @@ export function GuessList ({ valueList }) {
         </div>
     )
 }
+
+export default GuessList;

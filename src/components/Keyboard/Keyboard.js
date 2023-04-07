@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 import { range } from '../../utils';
 
-export function Keyboard ({ keyArr }) {
+function Keyboard ({ keyArr }) {
     
     return (
         <div className="keyboard-wrapper">
@@ -19,3 +19,5 @@ export function Keyboard ({ keyArr }) {
         </div>
     )
 }
+
+export default Keyboard;

@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-export function Banner ({ answer, valueList, limit }) {
+function Banner ({ answer, valueList, limit }) {
     if (valueList.length > 0) {
         if (valueList[valueList.length - 1].label === answer) {
             return (
@@ -22,3 +22,5 @@ export function Banner ({ answer, valueList, limit }) {
         )
     }
 }
+
+export default Banner;

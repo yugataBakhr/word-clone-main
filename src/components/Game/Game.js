@@ -2,14 +2,14 @@ import React from 'react';
 
 import { sample } from '../../utils';
 import { WORDS } from '../../data';
-import { GuessInput } from './GuessInput';
-//import { GuessList } from './GuessList';
-import { Guess } from './Guess';
+import GuessInput from '../GuessInput/GuessInput';
+//import GuessList from '../GuessList';
+import Guess from '../Guess/Guess';
 import { NUM_OF_GUESSES_ALLOWED } from '../../constants';
 import { checkGuess } from '../../game-helpers';
-import { Banner } from './Banner';
+import Banner from '../Banner/Banner';
 
-import { Keyboard } from './Keyboard';
+import Keyboard from '../Keyboard/Keyboard';
 
 // Pick a random word on every pageload.
 const answer = sample(WORDS);

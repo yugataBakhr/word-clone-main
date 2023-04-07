@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
 import { range } from '../../utils';
 
-export function Guess ({ rows, valueList, checkGuess, answer }) {
+function Guess ({ rows, valueList, checkGuess, answer }) {
         //rows === number of guesses!
         return (
                 <div 
@@ -39,3 +39,5 @@ export function Guess ({ rows, valueList, checkGuess, answer }) {
                 </div>
         )
 }
+
+export default Guess;
